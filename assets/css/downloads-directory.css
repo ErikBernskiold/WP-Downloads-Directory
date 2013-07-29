@@ -1,0 +1,66 @@
+/**
+ * Downloads Directory CSS File
+ */
+.downloads-listing {}
+
+	.downloads-listing ul,
+	.downloads-listing ul ul {
+		margin: 0 !important;
+		pading: 0;
+	}
+
+		.downloads-listing ul li {
+			list-style: none;
+			margin: 0 0 2em 0;
+			padding: 0 0 2em 0;
+			clear: both;
+			overflow: hidden;
+			border-bottom: 1px solid #ddd;
+		}
+
+			.downloads-listing li li {
+				display: block;
+				border-bottom: none;
+				margin: 0;
+				padding: 0;
+				clear: none;
+			}
+
+	.downloads-thumbnail {
+		width: 30%;
+		float: left;
+	}
+
+		.downloads-thumbnail img {
+			max-width: 100%;
+		}
+
+	.downloads-info {
+		width: 60%;
+		margin-left: 10%;
+		float: right;
+		overflow: hidden;;
+	}
+
+		.downloads-listing .downloads-title {
+			margin: 0;
+			font-size: 1.3em;
+		}
+
+		.downloads-excerpt {
+			margin: 1em 0 1em 0;
+		}
+
+		.downloads-price {
+			float: left;
+		}
+
+			.downloads-price .price {
+				font-size: 1.5em;
+				color: #E82C0C;
+			}
+
+		.downloads-actions {
+			float: right;
+		}
+
